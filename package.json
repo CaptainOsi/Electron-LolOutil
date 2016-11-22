@@ -1,0 +1,19 @@
+{
+  "name": "electron-loloutil",
+  "version": "0.1.0",
+  "description": "Electron application",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": "https://github.com/CaptainOsi/Electron-LolOutil",
+  "keywords": [
+    "Electron",
+    "league of legend"
+  ],
+  "author": "GitHub",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^1.4.1"
+  }
+}
