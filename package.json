@@ -15,5 +15,10 @@
   "license": "MIT",
   "devDependencies": {
     "electron": "^1.4.1"
+  },
+  "dependencies": {
+    "electron-window-manager": "^1.0.1",
+    "executive": "^1.1.7",
+    "jquery": "^3.1.1"
   }
 }
