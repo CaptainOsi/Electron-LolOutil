@@ -6,6 +6,7 @@ const webContents = electron.webContents
 const BrowserWindow = electron.BrowserWindow
 var windowManager = require('electron-window-manager');
 var exec = require('executive');
+var robotjs = require('robotjs');
 
  
 //var pathriot = 'C:/"Riot Games"/"league of legends"/lol.launcher.exe';
