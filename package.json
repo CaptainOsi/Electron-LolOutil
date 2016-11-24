@@ -14,7 +14,8 @@
   "author": "GitHub",
   "license": "MIT",
   "devDependencies": {
-    "electron": "^1.4.1"
+    "electron": "^1.4.1",
+    "electron-rebuild": "^1.4.0"
   },
   "dependencies": {
     "electron-window-manager": "^1.0.1",
