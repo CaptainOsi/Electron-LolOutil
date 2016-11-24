@@ -1,8 +1,16 @@
 const electron = require('electron')
 // Module to control application life.
 const app = electron.app
+const webContents = electron.webContents
 // Module to create native browser window.
 const BrowserWindow = electron.BrowserWindow
+var windowManager = require('electron-window-manager');
+var exec = require('executive');
+
+ 
+//var pathriot = 'C:/"Riot Games"/"league of legends"/lol.launcher.exe';
+//var cal = 'notepad.exe';
+//exec.quiet(cal);
 
 const path = require('path')
 const url = require('url')
@@ -21,9 +29,6 @@ function createWindow () {
     protocol: 'file:',
     slashes: true
   }))
-
-  // Open the DevTools.
-  mainWindow.webContents.openDevTools()
 
   // Emitted when the window is closed.
   mainWindow.on('closed', function () {
